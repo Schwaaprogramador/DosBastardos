@@ -1,17 +1,15 @@
 .container {
     display: flex;
+    flex-direction: column;
     padding: 20px;
-    
+    align-items: center;
     justify-content: center;
     background-image: url(../../imagenes/ladingpagebackground.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
 }
-.center {
-   flex-direction: column;
-    display: flex;
-}
+
 
 
 .landingTitle {
@@ -20,11 +18,3 @@
     padding: 40px;
 }
 
-.button {
-    padding: 20px;
-}
-
-
-.button:active {
-    color: green;
-}

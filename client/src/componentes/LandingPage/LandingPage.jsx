@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from './LandingPage.module.css';
 
 function LandingPage(){
     return(
     <>
                 <div className={styled.container}>
-                        <div className={styled.center}>
+                        
                         <h1 className={styled.landingTitle}>DOS BASTARDOS</h1>
                        
-                        <button className={styled.button}>Entrar</button>
-                        </div>
+                        <Link to='/home'>  <button>Entrar</button>  </Link> 
+                        
                 </div>
     </>)
 }
