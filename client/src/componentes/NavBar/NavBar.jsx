@@ -12,7 +12,10 @@ const NavBar = ()=> {
 
                 <div className={styled.enlaces}>
                     <Link to='/home'>Inicio</Link>
-                    <Link to='/form-registro'>Registro</Link>
+                    <Link to='/comunidad'>Comunidad</Link>
+                    <Link to='/noticias'>Noticias</Link>
+                    <Link to='/form-registro'>Envia tu Escrito</Link>
+                    <Link to='/contactanos'>Contactanos</Link>
                 </div>
             
             </div>

@@ -6,11 +6,11 @@ import { Route } from 'react-router-dom';
 import LandingPage from "./componentes/LandingPage/LandingPage.jsx";
 import Home from './componentes/Home/Home.jsx';
 import FormRegistro from './componentes/FormRegistro/FormRegistro.jsx';
-
+import styled from './App.css';
 
 //---Render Componente---------
 function App() {
-  return (<div>
+  return (<div className={styled.app}>
 
          
 
