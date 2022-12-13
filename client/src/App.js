@@ -7,6 +7,7 @@ import LandingPage from "./componentes/LandingPage/LandingPage.jsx";
 import Home from './componentes/Home/Home.jsx';
 import FormRegistro from './componentes/FormRegistro/FormRegistro.jsx';
 import styled from './App.css';
+import Escritos from './componentes/Escritos/Escritos.jsx';
 
 //---Render Componente---------
 function App() {
@@ -21,6 +22,10 @@ function App() {
 
             <Route exact path="/home" >
               <Home/>
+            </Route>
+
+            <Route exact path="/escritos" >
+              <Escritos/>
             </Route>
 
 

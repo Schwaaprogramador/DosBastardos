@@ -4,18 +4,15 @@ import styled from './NavBar.module.css';
 
 const NavBar = ()=> {
     return (<>
-            <div className={styled.container}>
-                <div className={styled.logo}>
-                    <h3>Dos <span className={styled.span}> Bastardos </span> </h3>
-                </div>
-                
 
-                <div className={styled.enlaces}>
-                    <Link to='/home'>Inicio</Link>
-                    <Link to='/comunidad'>Comunidad</Link>
-                    <Link to='/noticias'>Noticias</Link>
-                    <Link to='/form-registro'>Envia tu Escrito</Link>
-                    <Link to='/contactanos'>Contactanos</Link>
+
+            <div className={styled.container}>   
+                <div className={styled.enlacesContainer}>
+                    <Link to='/home' className={styled.enlace}>Inicio</Link>
+                    <Link to='/escritos' className={styled.enlace}>Escritos</Link>
+                    <Link to='/noticias' className={styled.enlace}>Noticias</Link>
+                    <Link to='/form-registro' className={styled.enlace}>Envia tu Escrito</Link>
+                    <Link to='/contactanos' className={styled.enlace}>Contactanos</Link>
                 </div>
             
             </div>

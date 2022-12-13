@@ -1,0 +1,22 @@
+.container {
+    background-image: url("../../imagenes/schopen3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    color: aliceblue;
+    padding: 1rem;
+
+   
+}
+
+.escrito {
+    
+    border: 3px solid aliceblue;
+    color: aqua;
+}
+
+.escritosContainer {
+    display: flex;
+    gap: 10px;
+}

@@ -28,7 +28,7 @@ function LandingPage(){
                                         size="small"
                                         sx={{
                                             width: 300,
-                                            color: 'success.main',
+                                            
                                           }}
                                         >Bienvenidos</Button>
                             </Link> 

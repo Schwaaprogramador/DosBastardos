@@ -1,22 +1,25 @@
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: rgb(125, 118, 118);
+    justify-content: center;
+    background-color: transparent;
     color: aliceblue;
 }
 
-.enlaces {
+.enlacesContainer {
     display: flex;
     gap: 20px;
-    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
     
 }
 
-.span {
-    color: black;
+.enlace {
+    color: aliceblue;
+    text-decoration: none;
 }
 
-.logo {
-    padding: 10px;
+.enlace:hover {
+    color: aqua;
 }

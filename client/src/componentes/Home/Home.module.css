@@ -1,8 +1,18 @@
 .container {
     display: flex;
-   
-   
+    flex-direction: column;
+    background-image: url('../../imagenes/schopen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
-    justify-content: space-around;
-   
+    color: aliceblue;
+    height: 100vh;
+    gap: 20px;
+}
+
+
+.frase {
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
 }
